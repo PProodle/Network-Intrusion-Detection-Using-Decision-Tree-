@@ -16,7 +16,7 @@ The dataset contains multiple features, including:
 - `protocol_type`: Type of network protocol (e.g., TCP, UDP).
 - `service`: Network service on the destination port (e.g., HTTP, FTP).
 - `flag`: Status of the connection.
-- `src_bytes`, `dst_bytes`: Number of bytes from source and destination.
+- `src_bytes`, `dst_bytes`: Indicate number of bytes from source and destination.
 - And more...
 
 Additionally, the dataset has a label column indicating whether a connection is normal or an attack, along with the type of attack.
